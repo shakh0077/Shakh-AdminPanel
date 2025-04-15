@@ -133,7 +133,7 @@ export default function DashboardIn() {
         </div>
 
         {/* Products and Cart Sections */}
-        <div className="grid grid-rows-2 gap-6">
+        <div className="grid grid-rows-1 lg:grid-rows-2 gap-6">
           {/* Products Card */}
           <div className="bg-blue-500 rounded-lg shadow-sm p-5 text-white">
             <div className="flex justify-between items-center mb-4">

@@ -130,18 +130,18 @@ export default function Costum() {
   );
 
   return (
-    <div className="bg-white text-black min-h-screen px-5">
+    <div className="bg-white text-black  px-2 lg:px-5">
       {/* Header with title and add button */}
       <div className="flex justify-between items-center">
-      <div className=" p-5 border-b border-gray-200">
-          <h2 className="text-2xl font-bold text-gray-800">Customers</h2>
+      <div className=" p-2 lg:p-5 border-b border-gray-200">
+          <h2 className="text-xl lg:text-2xl font-bold text-gray-800">Customers</h2>
         </div>
         <button 
           onClick={handleAddCustomer}
-          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md flex items-center gap-1"
+          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-2 lg:px-4 rounded-md flex items-center gap-1"
         >
-          <Plus size={16} />
-          Add a New Customer
+          <Plus size={15} />
+          Add Customer
         </button>
       </div>
 

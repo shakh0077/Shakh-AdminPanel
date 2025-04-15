@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BiConversation, BiLogIn } from "react-icons/bi";
-import { IoPeople, IoSettingsSharp } from "react-icons/io5";
+import { IoPeople,  } from "react-icons/io5";
+import { IoIceCream } from "react-icons/io5";
 import {
   MdDashboardCustomize,
   MdFiberSmartRecord,
@@ -30,9 +31,9 @@ function GlobalLayout() {
         {/* Header */}
         <div className="flex items-center justify-between px-5 mb-6  ">
           {isOpen ? (
-            <h1 className="flex items-center text-xl lg:text-3xl font-extrabold">
-              <SiHandshakeProtocol className="mr-2" />
-              Sh<span className="text-blue-500">ak</span>h
+            <h1 className="flex items-center text-xl lg:text-xl text-orange-500 font-extrabold">
+               <IoIceCream className="text-white" />
+              <span className="text-2xl">M</span>uz<span className="text-blue-500"><span className="text-2xl">Q</span>aymoq</span>
             </h1>
           ) : (
             <span className="w-6 h-6" /> // joy band qilish uchun
@@ -84,7 +85,7 @@ function GlobalLayout() {
       <div className='flex justify-between items-center px-5 py-5'>
             <h1 className='text-2xl font-bold py-2 cursor-pointer'><CgMoreVerticalAlt /></h1>
             <div className='flex items-center gap-3.5 '>
-               <select className='bg-orange-100 text-black py-2 px-3 outline-none rounded-2xl' name="name" id="name">
+               <select className='bg-blue-600 text-white py-2 px-3 outline-none rounded-2xl' name="name" id="name">
                 <option value="nanny’s shop">Nanny’s Shop</option>
                 <option value="nanny’s shop">Hello </option>
                 <option value="nanny’s shop">Nann</option>

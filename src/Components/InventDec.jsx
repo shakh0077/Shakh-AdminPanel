@@ -62,7 +62,7 @@ export default function Invent() {
   return (
     <div>
       <h1 className='text-2xl font-bold text-gray-800'>Inventory</h1>
-      <div className="w-[1190px] py-5 min-h-screen">
+      <div className="max-w-[1190px] py-5 min-h-screen">
         
         {/* Notification Area */}
         <div className="fixed bottom-4 right-4 z-50 space-y-2">
