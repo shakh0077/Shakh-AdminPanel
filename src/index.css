@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+.antClen::after{
+    content: '';
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    box-shadow: 5px 5px 60px 50px blue;
+    z-index: -1;
+    backdrop-filter: blur(50px);
+    overflow-x: hidden;
+
+}
+
+.antClen::before{
+    content: '';
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 80px;
+    right: 500px;
+    box-shadow: 5px 5px 60px 50px gold;
+    z-index: -1;
+    backdrop-filter: blur(50px);
+    overflow-x: hidden;
+}
